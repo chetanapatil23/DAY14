@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("input").on({
+    mouseenter: function(){
+      $(this).css("color", "gray");
+    },  
+    mouseleave: function(){
+      $(this).css("color", "blue");
+    }, 
+    click: function(){
+      $(this).css("color", "green");
+    }  
+  });
+});
+</script>
+</head>
+<body>
+
+enter name=<input id="p">
+
+</body>
+</html>
